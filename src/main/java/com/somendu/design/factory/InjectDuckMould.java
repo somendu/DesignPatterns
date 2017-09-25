@@ -3,17 +3,17 @@
  */
 package com.somendu.design.factory;
 
-/** <Description>
+/**
+ * <Description>
  * 
  * @author Somendu Maiti<smaiti@scan-it.com.sg>
- * @since Sep 25, 2017 */
-public class InjectDuckMould implements InjectMould {
+ * @since Sep 25, 2017
+ */
+public class InjectDuckMould extends InjectMould {
 
-	@Override
 	public String inject() {
 
-
-		return "Duck Inject";
+		return "Duck Mould";
 
 	}
 

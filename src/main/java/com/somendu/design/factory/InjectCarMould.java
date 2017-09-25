@@ -10,13 +10,11 @@ package com.somendu.design.factory;
  * @since Sep 25, 2017
  * 
  */
-public class InjectCarMould implements InjectMould {
+public class InjectCarMould extends InjectMould {
 
- 
-	@Override
 	public String inject() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return "Car Mould";
 	}
 
 }
