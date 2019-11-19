@@ -25,6 +25,7 @@ public class WorkspaceMain {
 			Store.getStore().setCount(storeCount - 1);
 
 			Store.getStore().setCount(storeCount);
+			storeCount--;
 			employeeResult = employee.getEqipment("Store");
 			countString = "Store count now " + storeCount;
 
@@ -38,7 +39,6 @@ public class WorkspaceMain {
 		System.out.println(employeeResult);
 		System.out.println(countString);
 
-		storeCount--;
 	}
 
 }
