@@ -34,7 +34,7 @@ public class MainImageReaderFactory {
 
 		decodedImage = reader.getDecodeImage();
 
-		System.out.println(decodedImage);
+		System.out.println(decodedImage.decoded());
 
 	}
 

@@ -18,4 +18,8 @@ public class DecodedImage {
 	public String toString() {
 		return image + ": is decoded";
 	}
+
+	public String decoded() {
+		return image + " is decoded";
+	}
 }
