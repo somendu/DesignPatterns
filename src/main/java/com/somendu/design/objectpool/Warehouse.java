@@ -9,7 +9,7 @@ package com.somendu.design.objectpool;
  */
 public class Warehouse {
 
-	public int count = 10;
+	public int count = 12;
 
 	private static final Warehouse warehouse = new Warehouse();
 
@@ -29,8 +29,7 @@ public class Warehouse {
 	}
 
 	/**
-	 * @param count
-	 *            the count to set
+	 * @param count the count to set
 	 */
 	public void setCount(int count) {
 		this.count = count;

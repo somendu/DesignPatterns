@@ -9,7 +9,7 @@ package com.somendu.design.objectpool;
  */
 public class Store {
 
-	private int count = 5;
+	private int count = 7;
 
 	private static final Store store = new Store();
 
@@ -30,8 +30,7 @@ public class Store {
 	}
 
 	/**
-	 * @param count
-	 *            the count to set
+	 * @param count the count to set
 	 */
 	public void setCount(int count) {
 		this.count = count;

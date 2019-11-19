@@ -16,8 +16,8 @@ public class WorkspaceMain {
 
 		Employee employee = new Employee();
 
-		int warehouseCount = Warehouse.getWarehouse().getCount();
-		int storeCount = Store.getStore().getCount();
+		int warehouseCount = Integer.parseInt(args[0]);
+		int storeCount = Integer.parseInt(args[1]);
 
 		String employeeResult = "";
 		String countString = "";
